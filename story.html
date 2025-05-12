@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story | LabPro Chem</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* Story Page Specific Styles */
+        .story-hero {
+            background: linear-gradient(rgba(0,91,150,0.8), rgba(0,91,150,0.8)), 
+                        url('images/lab-history.jpg');
+            background-size: cover;
+            padding: 150px 0 100px;
+            text-align: center;
+            color: white;
+            margin-top: 80px;
+        }
+        .timeline {
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .timeline-item {
+            display: flex;
+            margin-bottom: 40px;
+        }
+        .timeline-year {
+            font-weight: bold;
+            color: var(--primary-blue);
+            min-width: 100px;
+        }
+        .timeline-content {
+            border-left: 3px solid var(--primary-blue);
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <img src="images/logo.jpg.jpg" alt="LabPro Chem" class="logo">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="story.html">Our Story</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="story-hero">
+        <div class="container">
+            <h1>Our 39-Year Journey</h1>
+            <p>From humble beginnings to industry leadership</p>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="container timeline">
+        <div class="timeline-item">
+            <div class="timeline-year">1984</div>
+            <div class="timeline-content">
+                <h3>Founded in Mumbai</h3>
+                <p>Started as a small chemical supplier to local research labs.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-year">1995</div>
+            <div class="timeline-content">
+                <h3>First Major Expansion</h3>
+                <p>Launched our line of HPLC-grade solvents.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-year">2010</div>
+            <div class="timeline-content">
+                <h3>International Certification</h3>
+                <p>Received ISO 9001 certification for quality management.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
